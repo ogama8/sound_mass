@@ -1,0 +1,11 @@
+#N canvas 545 397 450 300 10;
+#X obj 3 64 counter 2 0 15;
+#X obj 3 42 metro 50;
+#X obj 3 21 t f b;
+#X obj 3 85 outlet;
+#X obj 3 1 inlet;
+#X connect 0 0 3 0;
+#X connect 1 0 0 0;
+#X connect 2 0 1 0;
+#X connect 2 1 0 3;
+#X connect 4 0 2 0;
